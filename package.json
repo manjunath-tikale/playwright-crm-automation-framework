@@ -1,0 +1,33 @@
+{
+  "name": "playwright-crm-automation-framework",
+  "version": "1.0.0",
+  "description": "Professional CRM automation testing framework using Playwright with Page Object Model architecture",
+  "main": "playwright.config.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:single": "playwright test --headed --workers=1",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:all": "playwright test --headed"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "e2e",
+    "api-testing",
+    "crm",
+    "page-object-model"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.2",
+    "dotenv": "^16.0.0"
+  }
+}
