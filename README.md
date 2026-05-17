@@ -378,3 +378,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 **Created for QA Automation Portfolio** | Last Updated: May 2026
+#   C I / C D   P i p e l i n e   A c t i v e  
+ 
